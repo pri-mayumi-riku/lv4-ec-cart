@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>音楽ショップ</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header>
+        <h1>音楽ショップ</h1>
+    </header>
+
+    <main>
+        <!-- タブのボタン -->
+        <div class="tabs">
+            <button class="tab-button active" data-tab="products">商品一覧</button>
+            <button class="tab-button" data-tab="favorites">お気に入り</button>
+        </div>
+
+        <!-- 商品一覧タブ -->
+        <div id="category-buttons" class="category-buttons"></div>
+        <section id="tab-products" class="tab-panel active">
+            <div id="product-list" class="product-list"></div>
+        </section>
+
+        <!-- お気に入りタブ -->
+        <section id="tab-favorites" class="tab-panel">
+            <div id="favorite-list" class="product-list"></div>
+        </section>
+    </main>
+
+    <!-- カート -->
+    <aside class="cart">
+        <h2>カート</h2>
+        <div id="cart-items" class="cart-items"></div>
+        <!-- 金額 -->
+        <div class="cart-summary">
+            <div class="summary-row"><span>小計（税抜）</span><span id="subtotal">0円</span></div>
+            <div class="summary-row"><span>消費税（10%）</span><span id="tax">0円</span></div>
+            <div class="summary-row total-row"><span>合計（税込）</span><span id="total">0円</span></div>
+        </div>
+    </aside>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>

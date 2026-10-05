@@ -1,0 +1,86 @@
+[
+    {
+        "id": 1,
+        "name": "90年代ロック名曲集",
+        "price": 1280,
+        "category": "CD",
+        "image": "#d7a27d"
+    },
+    {
+        "id": 2,
+        "name": "ジャズベスト盤",
+        "price": 980,
+        "category": "CD",
+        "image": "#87918a"
+    },
+    {
+        "id": 3,
+        "name": "歌謡曲シングル",
+        "price": 395,
+        "category": "CD",
+        "image": "#8ca8a4"
+    },
+    {
+        "id": 4,
+        "name": "厳選テクノアルバム",
+        "price": 1980,
+        "category": "CD",
+        "image": "#777b91"
+    },
+    {
+        "id": 5,
+        "name": "ポップレコード",
+        "price": 980,
+        "category": "レコード",
+        "image": "#d4b06a"
+    },
+    {
+        "id": 6,
+        "name": "夏のボサノバレコード",
+        "price": 1500,
+        "category": "レコード",
+        "image": "#a66b53"
+    },
+    {
+        "id": 7,
+        "name": "雨とピアノレコード",
+        "price": 1100,
+        "category": "レコード",
+        "image": "#688078"
+    },
+    {
+        "id": 8,
+        "name": "映画音楽レコード",
+        "price": 2200,
+        "category": "レコード",
+        "image": "#b77a61"
+    },
+    {
+        "id": 9,
+        "name": "60年代ジャズ名盤特集",
+        "price": 1200,
+        "category": "雑誌",
+        "image": "#d4b06a"
+    },
+    {
+        "id": 10,
+        "name": "テクノ入門",
+        "price": 1580,
+        "category": "雑誌",
+        "image": "#8ca8a4"
+    },
+    {
+        "id": 11,
+        "name": "民族音楽の魅力",
+        "price": 1980,
+        "category": "雑誌",
+        "image": "#a66b53"
+    },
+    {
+        "id": 12,
+        "name": "生成AIと音楽の未来",
+        "price": 1800,
+        "category": "雑誌",
+        "image": "#777b91"
+    }
+]
